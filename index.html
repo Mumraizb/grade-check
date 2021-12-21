@@ -12,10 +12,13 @@
 
     <div class="container">
         <form id="form" class="form1">
-            <label for="obtained-marks">Enter your marks:</label>
-            <input type="number" id="obtained-marks">
-            <label for="total-marks">Enter Total marks:</label>
-            <input type="number" id="total-marks">
+            <label for="obtained-marks" class="label1">Enter your marks:</label>
+            <input type="number" id="obtained-marks" min="0" max="1100">
+            <label for="total-marks" class="label2">Enter Total marks:</label>
+            <input type="number" id="total-marks" min="0" max="1100">
+            <button type="button" onclick="calculate()">Calculate</button>
+            <h1 id="result"></h1>
+            <h1 id="grade"></h1>
         </form>
     </div>
     

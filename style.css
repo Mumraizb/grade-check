@@ -1,0 +1,26 @@
+.container{
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+input#obtained-marks {
+    padding: 10px;
+}
+input#total-marks {
+    padding: 10px;
+}
+button {
+    margin: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
+h1#result {
+    width: 250px;
+    justify-content: center;
+}
+h1#grade{
+    
+        width: 250px;
+        justify-content: center;
+    
+}
